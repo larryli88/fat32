@@ -1,0 +1,14 @@
+﻿  fseek.c
+c:\users\ws\source\repos\fat32\fat32\fseek.c(115): warning C4047: “函数”:“LPDWORD”与“LPDWORD *”的间接级别不同
+c:\users\ws\source\repos\fat32\fat32\fseek.c(115): warning C4024: “DeviceIoControl”: 形参和实参 7 的类型不同
+c:\users\ws\source\repos\fat32\fat32\fseek.c(129): warning C4047: “函数”:“LPDWORD”与“LPDWORD *”的间接级别不同
+c:\users\ws\source\repos\fat32\fat32\fseek.c(129): warning C4024: “DeviceIoControl”: 形参和实参 7 的类型不同
+c:\users\ws\source\repos\fat32\fat32\fseek.c(482): warning C4047: “return”:“fileEntry_t *”与“fileEntry_t **”的间接级别不同
+c:\users\ws\source\repos\fat32\fat32\fseek.c(548): warning C4047: “return”:“char”与“char [11]”的间接级别不同
+c:\users\ws\source\repos\fat32\fat32\fseek.c(746): warning C4101: “dir”: 未引用的局部变量
+c:\users\ws\source\repos\fat32\fat32\fseek.c(757): warning C4101: “clusterNum”: 未引用的局部变量
+c:\users\ws\source\repos\fat32\fat32\fseek.c(548): warning C4172: 返回局部变量或临时变量的地址: searchName
+c:\users\ws\source\repos\fat32\fat32\fseek.c(661): warning C4716: “deleteDirEntry”: 必须返回一个值
+c:\users\ws\source\repos\fat32\fat32\fseek.c(736): warning C4715: “createDirEntry”: 不是所有的控件路径都返回值
+  test.cpp
+LINK : fatal error LNK1561: 必须定义入口点
